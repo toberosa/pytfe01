@@ -7,11 +7,11 @@ resource "aws_instance" "web007" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "web007"
+    Name = "web008"
   }
 
   tags_all = {
-    Name = "web007"
+    Name = "web008"
   }
 
 }
