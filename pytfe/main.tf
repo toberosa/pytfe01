@@ -1,20 +1,20 @@
-terraform {
+#terraform {
 
-    backend "s3" {
-    bucket = "statefile11092023"
-    key    = "aws/statefiles/demo.tfstate"
-    region = "ap-southeast-1"
-  }
+#    backend "s3" {
+#    bucket = "statefile11092023"
+#    key    = "aws/statefiles/demo.tfstate"
+#    region = "ap-southeast-1"
+#  }
 
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 4.16"
-    }
-  }
+ # required_providers {
+ #   aws = {
+ #     source  = "hashicorp/aws"
+ #     version = "~> 4.16"
+ #   }
+ # }
 
-  required_version = ">= 1.2.0"
-}
+  #required_version = ">= 1.2.0"
+#}
 
 provider "aws" {
   region  = "ap-southeast-1"
