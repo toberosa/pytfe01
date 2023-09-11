@@ -6,6 +6,14 @@ terraform {
  #   region = "ap-southeast-1"
  # }
 
+cloud {
+    hostname = "app.terraform.io"
+    organization = "Enterprise-01"
+    workspaces {
+      tags = ["OSS-TO-TFC-AWS"]
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
