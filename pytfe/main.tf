@@ -1,10 +1,10 @@
 terraform {
 
- # backend "s3" {
- #   bucket = "statefile11092023"
- #   key    = "aws/statefiles/demo.tfstate"
- #   region = "ap-southeast-1"
- # }
+  backend "s3" {
+    bucket = "statefile11092023"
+    key    = "aws/statefiles/demo.tfstate"
+    region = "ap-southeast-1"
+  }
 
   required_providers {
     aws = {
