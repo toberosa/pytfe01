@@ -25,11 +25,11 @@ resource "aws_instance" "web0Z" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "web0Z"
+    Name = "web0Z007"
   }
 
   tags_all = {
-    Name = "web0Z"
+    Name = "web0Z007"
   }
 
 }
